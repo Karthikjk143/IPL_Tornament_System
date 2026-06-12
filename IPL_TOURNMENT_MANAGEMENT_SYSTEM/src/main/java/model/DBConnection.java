@@ -14,7 +14,7 @@ public class DBConnection {
             // Connection details
             String url = "jdbc:mysql://localhost:3306/ipl_db";
             String user = "root";
-            String password = "amulya";  // Change to your password
+            String password = "12345";  // Change to your password
             
             conn = DriverManager.getConnection(url, user, password);
             System.out.println("✓ Connected to database!");
